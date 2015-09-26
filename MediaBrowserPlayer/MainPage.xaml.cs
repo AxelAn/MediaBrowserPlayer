@@ -1,5 +1,5 @@
 ﻿/*
-Smart Player for Media Browser
+Smart Player for Emby
 Copyright (C) 2014  Blue Bit Solutions
 
 This program is free software: you can redistribute it and/or modify
@@ -61,7 +61,7 @@ namespace SmartPlayer
             // extract the luser and security token info
             bool canSetRemote = false;
 
-            // extractte user data from the browser
+            // extractte user data
             try
             {
                 AppSettings settings = new AppSettings();

@@ -1,5 +1,5 @@
 ﻿/*
-Smart Player for Media Browser
+Smart Player for Emby
 Copyright (C) 2014  Blue Bit Solutions
 
 This program is free software: you can redistribute it and/or modify
@@ -389,7 +389,16 @@ namespace SmartPlayer.Classes
         {
             List<MediaItem> recentItems = new List<MediaItem>();
 
-            string userId = await GetUserID();
+            string userId = "";
+
+            try
+            {
+                userId = await GetUserID();
+            }
+            catch(Exception e)
+            {
+                return recentItems;
+            }
 
             ServerListItem server = settings.GetServer();
             if (server == null)

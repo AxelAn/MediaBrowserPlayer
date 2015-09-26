@@ -1,5 +1,5 @@
 ﻿/*
-Smart Player for Media Browser
+Smart Player for Emby
 Copyright (C) 2014  Blue Bit Solutions
 
 This program is free software: you can redistribute it and/or modify
@@ -23,12 +23,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Smart Player for Media Browser")]
-[assembly: AssemblyDescription("Smart Player for Media Browser")]
+[assembly: AssemblyTitle("Smart Player for Emby")]
+[assembly: AssemblyDescription("Smart Player for Emby")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Blue Bit Solutions")]
-[assembly: AssemblyProduct("Smart Player for Media Browser")]
-[assembly: AssemblyCopyright("Copyright ©  2014")]
+[assembly: AssemblyProduct("Smart Player for Emby")]
+[assembly: AssemblyCopyright("Copyright © 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

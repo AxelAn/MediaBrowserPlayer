@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
-  <Identity Name="65223BlueBitSolutions.MediaBrowserPlayer" Publisher="CN=AB272381-7B5C-4819-8D05-30E144F1F843" Version="1.4.0.2" />
+  <Identity Name="65223BlueBitSolutions.MediaBrowserPlayer" Publisher="CN=AB272381-7B5C-4819-8D05-30E144F1F843" Version="1.5.0.2" />
   <Properties>
     <DisplayName>Smart Player for Emby</DisplayName>
     <PublisherDisplayName>Blue Bit Solutions</PublisherDisplayName>
